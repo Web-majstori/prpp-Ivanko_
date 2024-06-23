@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tehnièko Veleuèilište u Zagrebu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff; /* Bijela pozadinska boja cijele stranice */
+            color: #000000; /* Crna boja teksta */
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffffff; /* Bijela pozadina navigacijskog bara */
+            color: #000000; /* Crna boja teksta u navigacijskom baru */
+            padding: 10px;
+        }
+        header img {
+            height: 50px;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            color: black; /* Crna boja teksta */
+            text-decoration: none;
+            font-size: 16px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            outline: none; /* Ukloni obrube */
+        }
+        nav a:hover {
+            background-color: #003366; /* Promjena boje pozadine prilikom hovera */
+        }
+        .slika {
+            width: 100%;
+            overflow: hidden;
+        }
+        .slika img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .content {
+            text-align: center;
+            padding: 50px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .content h1 {
+            margin-bottom: 10px;
+            color: #004080;
+        }
+        .content p {
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#">
+            <img src="tvzlogo.png" alt="TVZ Logo">
+        </a>
+        <nav>
+            <a href="o-fakultetu.html">O fakultetu</a>
+            <a href="#novosti">Novosti</a>
+            <a href="#prakse">Prakse</a>
+            <a href="#pretrazi">Pretrazi</a>
+        </nav>
+    </header>
+    <div class="slika">
+        <img src="tvzzgrada.png" alt="TVZ Building">
+    </div>
+    <div class="content">
+        <h1>ZAGREB UNIVERSITY OF APPLIED SCIENCES</h1>
+        <h2>TEHNICKO VELEUCILISTE U ZAGREBU</h2>
+        <p>Dobrodosli na Tehnicko veleuciliste u Zagrebu (TVZ), vodecu obrazovnu instituciju za tehnicke znanosti i inzenjering. Istražite nase programe, pratite najnovije vijesti i saznajte sve o mogucnostima koje vam nudimo!</p>
+    </div>
+</body>
+</html>
